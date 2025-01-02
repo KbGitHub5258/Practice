@@ -8,7 +8,7 @@ public class UserReg {
 		
 		PwdSecurityService pss = new PwdSecurityService();
 		
-		String encode = pss.encode("Kamlesh Bokde");
+		String encode = pss.encode("Kamlesh");
 		System.out.println(encode);
 	}
 
